@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=Kaushan+Script&family=Lato:ital,wght@0,400;1,700&family=Oswald&family=Public+Sans:wght@300;400;700&family=Vazirmatn:wght@400;700&display=swap");
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Vazirmatn", sans-serif;
+}
+body {
+  height: 100vh;
+  background-image: linear-gradient(#e8bdf9, #d8ded6);
+}
+.container {
+  padding: 40px 30px;
+  width: 50%;
+  min-width: 400px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: #fff;
+  -webkit-box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #f0f8ff;
+  box-shadow: 12px 12px 24px #b2b8c9, -12px -12px 24px #dcdcdc;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.row span {
+  font-weight: 500;
+}
+input[type="range"] {
+  width: 70%;
+  height: 3.5px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #dcdcdc;
+  border-radius: 3px;
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 15px;
+  width: 15px;
+  background-color: #1c1c1c;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#result {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #0be881;
+}
+#category {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+}
